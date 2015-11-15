@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A4D2733B-1ED4-4F93-8B16-EB5C600304C2}</ProjectGuid>
+    <RootNamespace>Lab3e</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;Msimg32.lib;opengl32.lib;glu32.lib;SOIL.lib;SOIL_old.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>NotSet</SubSystem>
+      <AdditionalLibraryDirectories>$(ProjectDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ambient_light.cpp" />
+    <ClCompile Include="building.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="directional_light.cpp" />
+    <ClCompile Include="field.cpp" />
+    <ClCompile Include="house.cpp" />
+    <ClCompile Include="house_backroom.cpp" />
+    <ClCompile Include="house_bathroom.cpp" />
+    <ClCompile Include="house_bedroom.cpp" />
+    <ClCompile Include="house_hallway.cpp" />
+    <ClCompile Include="house_kitchen.cpp" />
+    <ClCompile Include="house_landing.cpp" />
+    <ClCompile Include="house_livingroom.cpp" />
+    <ClCompile Include="house_masterbedroom.cpp" />
+    <ClCompile Include="light.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="point_light.cpp" />
+    <ClCompile Include="room.cpp" />
+    <ClCompile Include="scene_3d.cpp" />
+    <ClCompile Include="input.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="shape.cpp" />
+    <ClCompile Include="skybox.cpp" />
+    <ClCompile Include="spot_light.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="token_stream.cpp" />
+    <ClCompile Include="vec2.cpp" />
+    <ClCompile Include="vec3.cpp" />
+    <ClCompile Include="windmill.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ambient_light.h" />
+    <ClInclude Include="building.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="directional_light.h" />
+    <ClInclude Include="field.h" />
+    <ClInclude Include="house.h" />
+    <ClInclude Include="house_backroom.h" />
+    <ClInclude Include="house_bathroom.h" />
+    <ClInclude Include="house_bedroom.h" />
+    <ClInclude Include="house_hallway.h" />
+    <ClInclude Include="house_kitchen.h" />
+    <ClInclude Include="house_landing.h" />
+    <ClInclude Include="house_livingroom.h" />
+    <ClInclude Include="house_masterbedroom.h" />
+    <ClInclude Include="light.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="point_light.h" />
+    <ClInclude Include="room.h" />
+    <ClInclude Include="room_id.h" />
+    <ClInclude Include="scene_3d.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="shape.h" />
+    <ClInclude Include="skybox.h" />
+    <ClInclude Include="spot_light.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="token_stream.h" />
+    <ClInclude Include="vec2.h" />
+    <ClInclude Include="vec3.h" />
+    <ClInclude Include="windmill.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

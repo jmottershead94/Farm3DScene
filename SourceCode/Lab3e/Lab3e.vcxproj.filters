@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Lighting">
+      <UniqueIdentifier>{2e5fc932-9d93-4e13-9548-167e1543756c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Maths">
+      <UniqueIdentifier>{5460b6ab-18ec-4329-9ebd-343f003757dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buildings">
+      <UniqueIdentifier>{d59597d7-cd8a-4c2a-a9e2-9ebda76ef454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rooms">
+      <UniqueIdentifier>{4906f716-a772-4794-af04-1c9768e3ac9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rooms\House">
+      <UniqueIdentifier>{9745b611-f69e-4063-8b57-5491fcc9bc18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rooms\House\First Floor">
+      <UniqueIdentifier>{7a36ac9d-dada-4c1e-ac99-821750bbebd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rooms\House\Second Floor">
+      <UniqueIdentifier>{226ca902-dc7f-40db-b2dd-a60dc9deb980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buildings\House">
+      <UniqueIdentifier>{c062efbd-7546-4dd9-9267-71cb5d0cc82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buildings\Windmill">
+      <UniqueIdentifier>{7ac92652-069c-4230-910b-64ba5adc8f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lighting\Directional Lighting">
+      <UniqueIdentifier>{9aa50266-e9e2-4556-9723-a484144ff837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lighting\Point Lighting">
+      <UniqueIdentifier>{3a9c3797-04ff-41c6-a48c-64decddf8f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lighting\Spot Lighting">
+      <UniqueIdentifier>{9bf54d48-2b3d-4a42-83da-9df1bdb38cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{54d087d0-18d9-4de5-a8b1-a498fd5ccd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry\2D">
+      <UniqueIdentifier>{1d1e3343-b248-45d5-9531-b3edfd79c591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry\3D">
+      <UniqueIdentifier>{bc2e4d8f-4e27-4535-a253-b7f01defebea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lighting\Ambient Lighting">
+      <UniqueIdentifier>{c6548de6-d928-4df6-86bd-3f27a0fc8924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Maths\2D">
+      <UniqueIdentifier>{a164b60a-5746-4bf7-a695-08a4a9947cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Maths\3D">
+      <UniqueIdentifier>{aaff66a3-52d6-46b7-9b6d-ed25a96c0d09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="light.cpp">
+      <Filter>Header Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="token_stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="building.cpp">
+      <Filter>Header Files\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="room.cpp">
+      <Filter>Header Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="house_hallway.cpp">
+      <Filter>Header Files\Rooms\House\First Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="house_backroom.cpp">
+      <Filter>Header Files\Rooms\House\First Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="house_kitchen.cpp">
+      <Filter>Header Files\Rooms\House\First Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="house_livingroom.cpp">
+      <Filter>Header Files\Rooms\House\First Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="house_bathroom.cpp">
+      <Filter>Header Files\Rooms\House\Second Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="house_landing.cpp">
+      <Filter>Header Files\Rooms\House\Second Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="house_masterbedroom.cpp">
+      <Filter>Header Files\Rooms\House\Second Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="house_bedroom.cpp">
+      <Filter>Header Files\Rooms\House\Second Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="house.cpp">
+      <Filter>Header Files\Buildings\House</Filter>
+    </ClCompile>
+    <ClCompile Include="directional_light.cpp">
+      <Filter>Header Files\Lighting\Directional Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="point_light.cpp">
+      <Filter>Header Files\Lighting\Point Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="spot_light.cpp">
+      <Filter>Header Files\Lighting\Spot Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Header Files\Geometry\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="shape.cpp">
+      <Filter>Header Files\Geometry\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ambient_light.cpp">
+      <Filter>Header Files\Lighting\Ambient Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>Header Files\Maths\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>Header Files\Maths\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="windmill.cpp">
+      <Filter>Header Files\Buildings\Windmill</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="light.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="token_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="building.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="room.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="house_backroom.h">
+      <Filter>Header Files\Rooms\House\First Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="house_hallway.h">
+      <Filter>Header Files\Rooms\House\First Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="house_kitchen.h">
+      <Filter>Header Files\Rooms\House\First Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="house_livingroom.h">
+      <Filter>Header Files\Rooms\House\First Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="house_bathroom.h">
+      <Filter>Header Files\Rooms\House\Second Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="house_landing.h">
+      <Filter>Header Files\Rooms\House\Second Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="house_masterbedroom.h">
+      <Filter>Header Files\Rooms\House\Second Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="house_bedroom.h">
+      <Filter>Header Files\Rooms\House\Second Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="house.h">
+      <Filter>Header Files\Buildings\House</Filter>
+    </ClInclude>
+    <ClInclude Include="directional_light.h">
+      <Filter>Header Files\Lighting\Directional Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="point_light.h">
+      <Filter>Header Files\Lighting\Point Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="spot_light.h">
+      <Filter>Header Files\Lighting\Spot Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="room_id.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files\Geometry\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>Header Files\Geometry\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ambient_light.h">
+      <Filter>Header Files\Lighting\Ambient Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Header Files\Maths\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Header Files\Maths\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="windmill.h">
+      <Filter>Header Files\Buildings\Windmill</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
